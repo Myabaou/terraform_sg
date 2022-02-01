@@ -15,6 +15,7 @@ make delete-module _MODULE=[モジュール名]
 
 ## SG ルールインポート
 
+- Import
 ```sh
 terraform import module.sg_rules.aws_security_group_rule.this sg-XXXXX_ingress_tcp_443_443_8.8.8.8/32
 ```
